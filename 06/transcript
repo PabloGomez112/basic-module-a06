@@ -1,46 +1,6 @@
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
 vsim work.tb_control
 # vsim work.tb_control 
-# Start time: 08:36:31 on Oct 16,2024
-# Loading work.tb_control
-# Loading work.m_control
-# Loading work.m_registros
-# Loading work.m_alu
-# Loading work.m_memoria
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
-vsim work.tb_control
-# End time: 08:37:06 on Oct 16,2024, Elapsed time: 0:00:35
-# Errors: 0, Warnings: 4
-# vsim work.tb_control 
-# Start time: 08:37:06 on Oct 16,2024
-# Loading work.tb_control
-# Loading work.m_control
-# Loading work.m_registros
-# Loading work.m_alu
-# Loading work.m_memoria
-# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$end' is not defined.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_control File: C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v Line: 21
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
-vsim work.tb_control
-# End time: 08:37:49 on Oct 16,2024, Elapsed time: 0:00:43
-# Errors: 0, Warnings: 3
-# vsim work.tb_control 
-# Start time: 08:37:49 on Oct 16,2024
+# Start time: 12:05:42 on Oct 16,2024
 # Loading work.tb_control
 # Loading work.m_control
 # Loading work.m_registros
@@ -51,124 +11,6 @@ sim:/tb_control/instruccion \
 sim:/tb_control/resultado \
 sim:/tb_control/memoriaInstrucciones \
 sim:/tb_control/actualPos
-run -all
-# Cargando datos
-# primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# segundaSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(21)
-#    Time: 3100 ns  Iteration: 0  Instance: /tb_control
-# Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 21
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
-vsim work.tb_control
-# End time: 08:38:54 on Oct 16,2024, Elapsed time: 0:01:05
-# Errors: 0, Warnings: 2
-# vsim work.tb_control 
-# Start time: 08:38:54 on Oct 16,2024
-# Loading work.tb_control
-# Loading work.m_control
-# Loading work.m_registros
-# Loading work.m_alu
-# Loading work.m_memoria
-# ** Error (suppressible): (vsim-PLI-3098) $readmemb : Argument 2 must be a memory.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_control File: C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v Line: 17
-# Error loading design
-# End time: 08:38:54 on Oct 16,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
-vsim work.tb_control
-# vsim work.tb_control 
-# Start time: 08:39:16 on Oct 16,2024
-# Loading work.tb_control
-# Loading work.m_control
-# Loading work.m_registros
-# Loading work.m_alu
-# Loading work.m_memoria
-add wave -position insertpoint  \
-sim:/tb_control/instruccion \
-sim:/tb_control/resultado \
-sim:/tb_control/memoriaInstrucciones \
-sim:/tb_control/actualPos
-run -all
-# Cargando datos
-# primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# segundaSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# primerSalida: 00000000000000000000000001101110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000001101110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000000000
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000000000
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000001100100
-# segundaSalida: 00000000000000000000000001101110
-# primerSalida: 00000000000000000000000001100100
-# segundaSalida: 00000000000000000000000001101110
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# segundaSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(24)
-#    Time: 3100 ns  Iteration: 0  Instance: /tb_control
-# Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 24
-# Compile of m_Control.v was successful.
-# Compile of m_Registros.v was successful.
-# Compile of m_Alu.v was successful.
-# Compile of m_Memoria.v was successful.
-# Compile of tb_control.v was successful with warnings.
-# 5 compiles, 0 failed with no errors.
-vsim work.tb_control
-# End time: 08:43:49 on Oct 16,2024, Elapsed time: 0:04:33
-# Errors: 0, Warnings: 3
-# vsim work.tb_control 
-# Start time: 08:43:50 on Oct 16,2024
-# Loading work.tb_control
-# Loading work.m_control
-# Loading work.m_registros
-# Loading work.m_alu
-# Loading work.m_memoria
 run -all
 # Cargando datos
 # primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -224,70 +66,8 @@ run -all
 # ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(24)
 #    Time: 3100 ns  Iteration: 0  Instance: /tb_control
 # Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 24
-add wave -position insertpoint  \
-sim:/tb_control/instruccion \
-sim:/tb_control/resultado \
-sim:/tb_control/memoriaInstrucciones \
-sim:/tb_control/actualPos
-restart
-run -all
-# Cargando datos
-# primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# segundaSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000011111100111
-# segundaSalida: 00000000000000000000000000110110
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: 00000000000000000000000001100100
-# segundaSalida: 00000000000000000000000001101110
-# primerSalida: 00000000000000000000000001100100
-# segundaSalida: 00000000000000000000000001101110
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000000000000
-# segundaSalida: 00000000000000000000000001101111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000001101111
-# segundaSalida: 00000000000000000000011111100111
-# primerSalida: 00000000000000000000000000110110
-# segundaSalida: 00000000000000000000000001100100
-# primerSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# segundaSalida: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(24)
-#    Time: 3100 ns  Iteration: 0  Instance: /tb_control
-# Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 24
-add wave -position end  sim:/tb_control/control/OP_A
-add wave -position end  sim:/tb_control/control/OP_B
-run -all
+# A bookmark named "bookmark0" has been added for window "Wave"
+# Bookmark "bookmark0" already exists with that definition in window "Wave", ignoring
 restart
 run -all
 # GetModuleFileName: No se puede encontrar el módulo especificado.
@@ -347,8 +127,8 @@ run -all
 # ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(24)
 #    Time: 3100 ns  Iteration: 0  Instance: /tb_control
 # Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 24
-add wave -position end  sim:/tb_control/control/alu/primerOperando
-add wave -position end  sim:/tb_control/control/alu/segundoOperando
+add wave -position insertpoint  \
+sim:/tb_control/control/registros/memoria
 restart
 run -all
 # GetModuleFileName: No se puede encontrar el módulo especificado.
@@ -408,7 +188,7 @@ run -all
 # ** Note: $stop    : C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v(24)
 #    Time: 3100 ns  Iteration: 0  Instance: /tb_control
 # Break in Module tb_control at C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/tb_control.v line 24
-add wave -position end  sim:/tb_control/control/alu/resultado
+run -all
 restart
 run -all
 # GetModuleFileName: No se puede encontrar el módulo especificado.
