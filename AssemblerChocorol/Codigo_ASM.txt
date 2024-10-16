@@ -1,0 +1,27 @@
+SUMA $0, $1, $2
+SUMA $1, $2, $3
+SUMA $2, $3, $4
+
+RESTA $3, $1, $2
+RESTA $4, $2, $3
+RESTA $5, $3, $4
+
+AND $6, $4, $5
+AND $7, $0, $1
+AND $8, $1, $2
+
+MENORQ $9, $0, $1
+MENORQ $10, $1, $2
+MENORQ $11, $3, $4
+
+LEER $0
+LEER $1
+LEER $2
+LEER $4
+LEER $5
+LEER $6
+LEER $7
+LEER $8
+LEER $9
+LEER $10
+LEER $11

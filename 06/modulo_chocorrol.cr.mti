@@ -1,0 +1,29 @@
+C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Control.v {1 {vlog -work work -stats=none C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module m_control
+
+Top level modules:
+	m_control
+
+} {} {}} C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Alu.v {1 {vlog -work work -stats=none C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module m_alu
+
+Top level modules:
+	m_alu
+
+} {} {}} C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Memoria.v {1 {vlog -work work -stats=none C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Memoria.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module m_memoria
+
+Top level modules:
+	m_memoria
+
+} {} {}} C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Registros.v {1 {vlog -work work -stats=none C:/Users/Pablo/Desktop/Universidad/CuartoSemestre/Arquitectura/Participaciones/06/m_Registros.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module m_registros
+
+Top level modules:
+	m_registros
+
+} {} {}}
